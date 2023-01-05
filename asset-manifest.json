@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/poke-api-react-search/static/css/main.073c9b0a.css",
-    "main.js": "/poke-api-react-search/static/js/main.bb17aebe.js",
-    "static/js/787.28cb0dcd.chunk.js": "/poke-api-react-search/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/poke-api-react-search/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/poke-api-react-search/static/css/main.cbaef5b4.css",
+    "main.js": "/poke-api-react-search/static/js/main.071916aa.js",
+    "static/media/loading.gif": "/poke-api-react-search/static/media/loading.c28dc9568d97c80c762c.gif",
     "index.html": "/poke-api-react-search/index.html",
-    "main.073c9b0a.css.map": "/poke-api-react-search/static/css/main.073c9b0a.css.map",
-    "main.bb17aebe.js.map": "/poke-api-react-search/static/js/main.bb17aebe.js.map",
-    "787.28cb0dcd.chunk.js.map": "/poke-api-react-search/static/js/787.28cb0dcd.chunk.js.map"
+    "main.cbaef5b4.css.map": "/poke-api-react-search/static/css/main.cbaef5b4.css.map",
+    "main.071916aa.js.map": "/poke-api-react-search/static/js/main.071916aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bb17aebe.js"
+    "static/css/main.cbaef5b4.css",
+    "static/js/main.071916aa.js"
   ]
 }
