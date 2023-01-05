@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
   "homepage": "https://shakcross.github.io/poke-api-react-search",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

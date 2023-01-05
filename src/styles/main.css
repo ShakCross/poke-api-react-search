@@ -1,0 +1,158 @@
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.3em;
+}
+.title {
+  text-align: center;
+}
+input {
+  width: 100%;
+  border: solid 2px lightgrey;
+  border-radius: 5px;
+  padding: 12px;
+}
+.main {
+  width: 50%;
+}
+
+.pokedex{
+  border: solid 3px rgb(151, 142, 212);
+    background-color: RGB(182, 170, 255);
+    width: 40%;
+    max-height: 693px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px 0px 30px;
+    font-weight: bolder;
+}
+.pokemon-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.card {
+  width: 290px;
+  height: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bolder;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.card:nth-child(1) {
+  border: solid 3px rgb(105, 184, 174);
+  background-color: RGB(118, 218, 206);
+}
+.card:nth-child(2) {
+  border: solid 3px rgb(224, 171, 135);
+  background-color: RGB(251, 192, 152)
+}
+.card:nth-child(3) {
+  border: solid 3px rgb(209, 136, 148);
+  background-color: RGB(245, 157, 171)
+}
+
+.card:nth-child(4) {
+  border: solid 3px rgb(164, 178, 186);
+  background-color: RGB(192, 208, 218)
+}
+
+.name {
+  margin-top: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+.buttons {
+  background-color: RGB(0, 137, 224);
+  width: 175px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.alignNext{
+  justify-content: end;
+}
+
+.fa-solid.fa-chevron-left {
+  margin-right: 5px;
+}
+.fa-solid.fa-chevron-right {
+  margin-left: 5px;
+}
+.image{
+  width: 300px;
+    align-self: center;
+}
+.sprites{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.sprites-img{
+  align-self: center;
+}
+.sprites-img img {
+  width: 75px;
+}
+.id, .name{
+  align-self: center;
+  font-weight: bolder;
+  margin-top: 3px;
+  text-transform: capitalize;
+}
+.types-name{
+margin-right: 10px;
+font-size: 0.9em;
+margin-top: 3px;
+}
+.type-name{
+  display: flex;
+}
+.type{
+  margin-top: 5px;
+}
+.weight{
+  margin-top: 12px;
+}
+.kg{
+  font-size: 0.8em;
+margin-top: 3px;
+}
+.moves{
+  display: flex;
+  flex-wrap: wrap;
+}
+.moves div {
+  margin-right: 15px;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+.movements{
+  margin-top: 10px;
+}
+
