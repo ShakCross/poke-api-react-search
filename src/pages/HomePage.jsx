@@ -47,7 +47,7 @@ export const HomePage = () => {
 
   return (
     <div className="wrapper">
-              <h1 className="title">Lista Pokemon</h1>
+              <h1 className="title">Listado de Pokémon</h1>
       <div className="content">
         <div className="main">
           <input
